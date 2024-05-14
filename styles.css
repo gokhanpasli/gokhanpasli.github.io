@@ -1,0 +1,140 @@
+/* Genel stil */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık stil */
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #003366;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    color: #003366;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #666;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Bölüm stil */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+/* Liste stil */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Bağlantı stil */
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* İletişim bilgileri */
+#contact p {
+    margin: 10px 0;
+}
+
+/* Deneyim, Eğitim, Projeler, Sertifikalar stil */
+#experience div, #education div, #projects div, #certificates ul {
+    margin-bottom: 20px;
+}
+
+#experience div h3, #education div h3, #projects div h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #003366;
+}
+
+#experience div p, #education div p, #projects div p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Dil ve İlgi Alanları stil */
+#languages ul, #interests ul {
+    columns: 2;
+}
+
+#languages li, #interests li {
+    margin: 10px 0;
+}
+
+/* Alt bilgi stil */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: #fff;
+    margin-top: 40px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+}
